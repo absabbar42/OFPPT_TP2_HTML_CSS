@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Mon Mini Site</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+        }
+
+        nav {
+        background-color: #1e1e1e;
+        }
+
+        nav a {
+        color: #ffffff;
+        }
+
+        header {
+        background: linear-gradient(to right, #1e1e1e, #333);
+        color: #fff;
+        }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact</h1>
+    <p class="modesombre"><a href="contact.html">Mode sombre 🌙</a></p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="a_propos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="contact">
+    <form class="contact-form">
+      <p>
+        <label style="color: white;" for="nom">Nom complet (obligatoire) :</label><br>
+        <input type="text" required>
+      </p>
+
+      <p>
+        <label style="color: white;" for="email">E-mail :</label><br>
+        <input type="email">
+      </p>
+
+      <p>
+        <label style="color: white;">Sujet :</label><br>
+        <select>
+          <option>Demande d'information</option>
+          <option>Réclamation</option>
+          <option>Autre</option>
+        </select>
+      </p>
+
+      <p>
+        <label style="color: white;">Message :</label><br>
+        <textarea></textarea>
+      </p>
+
+      <p>
+        <label style="color: white;">Date de contact :</label><br>
+        <input type="date">
+      </p>
+
+      <p class="buttons">
+        <button type="submit" class="btn-envoyer">Envoyer</button>
+        <button type="reset" class="btn-effacer">Effacer</button>
+      </p>
+    </form>
+
+    <section class="map">
+      <h2 style="color: white;">Où nous trouver</h2>
+      <img src="localisation.webp" alt="Carte de localisation" width="400">
+    </section>
+
+    <p><a class="back-link" href="index.html" style="margin-left: 345px;">Retour à l'accueil</a></p>
+  </main>
+
+  <footer>
+    <p>Auteur : Abdnor</p>
+    <p>© 2025 - Agence Web Simple</p>
+  </footer>
+
+</body>
+</html>
